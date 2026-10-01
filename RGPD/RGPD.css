@@ -1,0 +1,97 @@
+/* ESTILOS UNIFICADOS PARA DOCUMENTOS RGPD */
+
+.legal-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff; 
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+    line-height: 1.7;
+    border: 1px solid #add8e6;
+    font-family: 'Georgia', serif; 
+}
+
+/* Títulos principales */
+.legal-container h1 {
+    color: #4682b4;
+    font-size: 2.2rem;
+    border-bottom: 3px solid #4682b4;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* Subtítulos de secciones */
+.legal-container h2 {
+    color: #2c5980;
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-left: 5px solid #4682b4;
+    padding-left: 15px;
+}
+
+/* Párrafos y listas */
+.legal-container p, 
+.legal-container li {
+    font-size: 1.05rem;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.legal-container ul {
+    padding-left: 25px;
+}
+
+/* Tablas de datos del Responsable */
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #f9fcff;
+}
+
+.tabla-datos td {
+    border: 1px solid #add8e6;
+    padding: 14px;
+}
+
+.tabla-datos td:first-child {
+    font-weight: bold;
+    width: 35%;
+    background-color: #e6f2fa;
+    color: #2c5980;
+}
+
+/* Enlaces dentro del texto legal */
+.legal-container a {
+    color: #4682b4;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.legal-container a:hover {
+    color: #2c5980;
+}
+
+/* Pie de página de actualización */
+.legal-footer {
+    margin-top: 50px;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .legal-container {
+        margin: 15px;
+        padding: 25px;
+    }
+    .legal-container h1 { font-size: 1.8rem; }
+    .tabla-datos td { padding: 10px; font-size: 0.9rem; }
+}
